@@ -68,7 +68,7 @@
             <artifactId>tapapp-impl</artifactId>
             <version>${tapapp.version}</version>
         </dependency>
-        <!-- Tap app specific artifacts -->
+        <!-- Learning switch app specific artifacts -->
         <dependency>
             <groupId>org.sdnhub.odl.tutorial.learning-switch</groupId>
             <artifactId>learning-switch-config</artifactId>
@@ -81,6 +81,19 @@
             <artifactId>learning-switch-impl</artifactId>
             <version>${learning-switch.version}</version>
         </dependency>
+         <!-- Access Control List app specific artifacts -->
+         <dependency>
+            <groupId>org.sdnhub.odl.tutorial.acl</groupId>
+            <artifactId>acl-config</artifactId>
+            <version>${acl.version}</version>
+            <type>xml</type>
+            <classifier>config</classifier>
+         </dependency>
+         <dependency>
+            <groupId>org.sdnhub.odl.tutorial.acl</groupId>
+            <artifactId>acl-impl</artifactId>
+            <version>${acl.version}</version>
+         </dependency>
     </dependencies>
     <build>
         <resources>
