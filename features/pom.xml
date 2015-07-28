@@ -93,7 +93,12 @@
             <groupId>org.sdnhub.odl.tutorial.acl</groupId>
             <artifactId>acl-impl</artifactId>
             <version>${acl.version}</version>
-         </dependency>
+        </dependency>
+        <dependency>
+            <groupId>org.sdnhub.odl.tutorial.acl</groupId>
+            <artifactId>acl-model</artifactId>
+            <version>${acl.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <resources>

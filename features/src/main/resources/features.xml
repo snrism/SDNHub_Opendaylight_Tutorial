@@ -26,6 +26,7 @@
         <feature version="${openflowplugin.version}">odl-openflowplugin-flow-services</feature>
         <feature version="${mdsal.version}">odl-mdsal-broker</feature>
         <bundle>mvn:org.sdnhub.odl.tutorial.acl/acl-impl/${acl.version}</bundle>
+        <bundle>mvn:org.sdnhub.odl.tutorial.acl/acl-model/${acl.version}</bundle>
         <configfile finalname="etc/opendaylight/karaf/${acl.configfile}">mvn:org.sdnhub.odl.tutorial.acl/acl-config/${acl.version}/xml/config</configfile>
     </feature>
 </features>
